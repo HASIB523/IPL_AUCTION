@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL AUCTION</title>
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="m-8">
+    <header>
+       <div class="menu-container grid grid-cols-3 mx-auto items-center mt-10 max-h-screen ml-20 text-2xl">
+        <h3>Budget: <span id="budget">2500</span>$</h3>
+        <h3>Cart: <span id="cart">0</span></h3>
+        <h3>Left: <span id="left">6</span></h3>
+       </div>
+    </header>
+    <main class="mt-16">
+        <!-- main container -->
+        <div class="flex gap-7">
+            <!-- player container -->
+            <div class="flex-1 grid grid-cols-2 space-y-7">
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body player-card">
+                         <h1>Tamim Iqbal</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>Bat</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Shakib Hasan</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>All-Rounder</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Mushfiq</h1> 
+                         <h5>Price: <span>200</span>$</h5>
+                         <h5>Category: <span>Bat</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Liton Das</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>Bat</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Shanto</h1> 
+                         <h5>Price: <span>400</span>$</h5>
+                         <h5>Category: <span>Bat</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Mustafiz</h1> 
+                         <h5>Price: <span>400</span>$</h5>
+                         <h5>Category: <span>Ball</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Taskin</h1> 
+                         <h5>Price: <span>400</span>$</h5>
+                         <h5>Category: <span>Ball</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Shoriful</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>Ball</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Mahadi</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>All-Rounder</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Tawhid Ridoy</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>Ball</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Rasel Domingo</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>Coach</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="card w-96 bg-primary text-primary-content">
+                        <div class="card-body">
+                         <h1>Salauddin</h1> 
+                         <h5>Price: <span>300</span>$</h5>
+                         <h5>Category: <span>Coach</span></h5>
+                         <button class="btn">Add Cart</button>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- cart container -->
+            <div class="space-x-5">
+                <div>
+                    <div class="card w-96 bg-red-400 text-primary-content">
+                        <div class="card-body">
+                         <h1 class="text-3xl">My Cart</h1> 
+                         <h2 class="border-y-4 border-indigo-500 ...">Name  Price  Category</h2>
+                         <div id="selected-player-container"></div>
+                         <h1 class="text-2xl">Total Cost:  <span id="total-cost">0</span>$</h1>
+                         <div class="flex space-x-2 ">
+                            <input type="text" name="" id="cupon-code" class="text-white rounded-lg" placeholder="Cupon Code">
+                            <button onclick="upadteGrandTotal('aply-btn')"class="btn">Apply</button>
+                         </div>
+                         <h1 class="text-2xl">Grand Total:<span id="grand-total">0</span>$</h1>
+                        </div>
+                        </div>
+                      </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="app.js/style.js"></script>
+</body>
+</html>
